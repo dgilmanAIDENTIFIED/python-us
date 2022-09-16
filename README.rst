@@ -213,6 +213,11 @@ commits to the repo. To run these tests yourself: ::
 Changelog
 ---------
 
+3.2.0
+~~~~~
+* Relax constraint on jellyfish dependency
+
+
 3.1.1
 ~~~~~
 * add support for Python 3.11
