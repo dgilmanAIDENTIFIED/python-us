@@ -4,7 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-black = "*"
+black = "23.7.0"
 flake8 = "*"
 importlib_metadata = "*"
 pytest = "*"
@@ -12,8 +12,7 @@ pytz = "*"
 requests = "<3.0"
 
 [packages]
-jellyfish = "==0.11.2"
-
+jellyfish = "~=1.0"
 
 [pipenv]
 allow_prereleases = true
