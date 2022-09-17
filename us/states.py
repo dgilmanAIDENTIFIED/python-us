@@ -616,6 +616,26 @@ MA = State(
 )
 
 
+UM = State(
+    **{
+        "fips": "74",
+        "name": "Midway Islands",
+        "abbr": "UM",
+        "is_territory": True,
+        "is_obsolete": False,
+        "is_contiguous": False,
+        "is_continental": False,
+        "statehood_year": None,
+        "capital": None,
+        "capital_tz": "Pacific/Pago_Pago",
+        "ap_abbr": None,
+        "time_zones": ["Pacific/Pago_Pago"],
+        "name_metaphone": "MTW ISLNTS",
+
+    }
+)
+
+
 MI = State(
     **{
         "fips": "26",
