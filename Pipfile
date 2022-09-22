@@ -12,6 +12,8 @@ requests = "<3.0"
 geopandas = "*"
 rtree = "*"
 iso6709 = "*"
+twine = "*"
+build = "*"
 
 [packages]
 jellyfish = "<1.0"
