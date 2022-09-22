@@ -3,11 +3,11 @@ from setuptools import setup, find_packages
 long_description = open("README.rst").read()
 
 setup(
-    name="us",
-    version="3.0.0",
+    name="us-aidentified",
+    version="3.0.1",
     author="Jeremy Carbaugh",
     author_email="jeremy@jcarbaugh.com",
-    url="https://github.com/unitedstates/python-us",
+    url="https://github.com/dgilmanAIDENTIFIED/python-us",
     description="US state meta information and other fun stuff",
     long_description=long_description,
     license="BSD",
