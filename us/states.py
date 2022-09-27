@@ -136,7 +136,7 @@ def lookup(
         matched_state = _lookup_cache[cache_key]
         return matched_state
 
-    for state in STATES_AND_TERRITORIES:
+    for state in itertools.chain(STATES_AND_TERRITORIES, [DC], OBSOLETE):
         if val == getattr(state, field):
             matched_state = state
             if use_cache:
