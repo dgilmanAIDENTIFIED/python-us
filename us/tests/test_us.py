@@ -70,7 +70,7 @@ def test_name_lookup():
 
 def test_obsolete_lookup():
     for state in us.OBSOLETE:
-        assert us.states.lookup(state.name) is None
+        assert us.states.lookup(state.name) is state
 
 
 def test_additional_metaphones():
