@@ -20,3 +20,7 @@ jellyfish = "~=1.0"
 
 [pipenv]
 allow_prereleases = true
+
+[scripts]
+package = "python -m build"
+deploy = "python -m twine upload dist/*"
