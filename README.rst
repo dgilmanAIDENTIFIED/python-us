@@ -213,6 +213,12 @@ commits to the repo. To run these tests yourself: ::
 Changelog
 ---------
 
+3.0.2
+~~~~~
+
+* Re-add DC and obsolete states to lookup() for backwards compatibility
+
+
 3.0.1
 ~~~~~
 
