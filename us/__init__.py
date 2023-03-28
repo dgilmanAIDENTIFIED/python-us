@@ -1,4 +1,4 @@
-from .states import (
+from .states import (  # noqa: F401
     STATES,
     STATES_CONTIGUOUS,
     STATES_CONTINENTAL,
@@ -6,4 +6,4 @@ from .states import (
     STATES_AND_TERRITORIES,
     OBSOLETE,
 )
-from .unitedstatesofamerica import *  # noqa
+from .unitedstatesofamerica import *  # noqa: F401, F403
