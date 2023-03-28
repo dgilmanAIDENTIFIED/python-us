@@ -77,7 +77,8 @@ DEFAULT_ADDITIONAL_METAPHONES = {
     "KMNWL0 OF MSXSTS": "MSXSTS",  # Commonwealth of Massachusetts -> Massachusetts
     "KMNWL0 OF PNSLFN": "PNSLFN",  # Commonwealth of Pennsylvania -> Pennsylvania
     "KMNWL0 OF FRJN": "FRJN",  # Commonwealth of Virginia -> Virginia
-    "KMNWL0 OF 0 NR0RN MRN ISLNTS": "NR0RN MRN ISLNTS",  # Commonwealth of the Northern Mariana Islands -> Northern Mariana Islands
+    # Commonwealth of the Northern Mariana Islands -> Northern Mariana Islands
+    "KMNWL0 OF 0 NR0RN MRN ISLNTS": "NR0RN MRN ISLNTS",
     "MRN ISLNTS": "NR0RN MRN ISLNTS",  # Mariana Islands -> Northern Mariana Islands
     "MRN ISLNT": "NR0RN MRN ISLNTS",  # Mariana Island -> Northern Mariana Islands
     "KMNWL0 OF PRT RK": "PRT RK",  # Commonwealth of Puerto Rico -> Puerto Rico
