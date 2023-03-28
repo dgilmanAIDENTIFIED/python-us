@@ -16,7 +16,6 @@ _lookup_cache: Dict[str, "State"] = {}
 
 
 class State:
-
     abbr: str
     ap_abbr: Optional[str]
     capital: Optional[str]
