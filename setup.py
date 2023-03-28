@@ -17,6 +17,8 @@ setup(
     entry_points={"console_scripts": ["states = us.cli.states:main"]},
     platforms=["any"],
     classifiers=[
+        # N.B. 3.6 is untested and should be dropped
+        # in coming releases.
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
