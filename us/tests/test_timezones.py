@@ -49,7 +49,7 @@ def test_timezone():
     timezone_df = timezone_df.set_crs(crs="EPSG:4326")  # probably?
     timezone_df = timezone_df.to_crs(state_df.crs)
 
-    joined_df = gpd.sjoin(timezone_df, state_df, how="inner", op="within")
+    joined_df = gpd.sjoin(timezone_df, state_df, how="inner", predicate="within")
 
     for row in joined_df[["timezone", "STATEFP"]].itertuples(index=False, name=None):
         timezone_name, state_fips = row
