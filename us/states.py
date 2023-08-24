@@ -2,6 +2,7 @@ import os
 import re
 from typing import Any, Dict, Iterable, List, Optional
 from urllib.parse import urljoin
+import itertools
 
 import jellyfish  # type: ignore
 
