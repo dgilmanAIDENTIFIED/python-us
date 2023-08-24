@@ -163,6 +163,7 @@ shapefile_urls = [
 ]
 
 
+@pytest.mark.skipif("not config.getoption('shapefile_urls')")
 @pytest.mark.parametrize("url", shapefile_urls)
 def test_shapefiles_head(url):
     import requests
