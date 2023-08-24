@@ -216,6 +216,7 @@ Changelog
 3.2.0
 ~~~~~
 * Relax constraint on jellyfish dependency
+* Add the 2020 TIGER URLs to shapefile_urls()
 
 
 3.1.1
