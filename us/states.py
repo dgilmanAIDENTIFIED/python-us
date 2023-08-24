@@ -66,7 +66,6 @@ class State:
         if self.abbr not in ["AS", "GU", "MP", "VI"]:
             urls["upperchamber"] = urljoin(base, f"SLDU/tl_2020_{fips}_sldu.zip")
 
-
         return urls
 
 

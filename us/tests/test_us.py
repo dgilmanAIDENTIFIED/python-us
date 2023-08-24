@@ -156,7 +156,12 @@ def test_cache():
 # shapefiles
 
 
-shapefile_urls = [url for state in us.STATES_AND_TERRITORIES for url in state.shapefile_urls().values()]
+shapefile_urls = [
+    url
+    for state in us.STATES_AND_TERRITORIES
+    for url in state.shapefile_urls().values()
+]
+
 
 @pytest.mark.parametrize("url", shapefile_urls)
 def test_shapefiles_head(url):
