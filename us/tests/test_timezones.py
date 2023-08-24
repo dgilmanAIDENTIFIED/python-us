@@ -44,7 +44,9 @@ def test_timezone():
     timezone_df = gpd.GeoDataFrame().from_records(
         timezones(), columns=["timezone", "lat", "lng"], coerce_float=True
     )
-    timezone_df = timezone_df.set_geometry(gpd.points_from_xy(timezone_df.lng, timezone_df.lat))
+    timezone_df = timezone_df.set_geometry(
+        gpd.points_from_xy(timezone_df.lng, timezone_df.lat)
+    )
     timezone_df: gpd.GeoDataFrame = timezone_df.drop(columns=["lat", "lng"])
     timezone_df = timezone_df.set_crs(crs="EPSG:4326")  # probably?
     timezone_df = timezone_df.to_crs(state_df.crs)

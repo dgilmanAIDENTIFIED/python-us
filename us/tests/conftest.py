@@ -18,5 +18,5 @@ def pytest_addoption(parser):
         action="store_true",
         dest="shapefile_urls",
         default=False,
-        help="test for existence of shapefile URLs on census server"
+        help="test for existence of shapefile URLs on census server",
     )
