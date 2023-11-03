@@ -217,6 +217,7 @@ Changelog
 ~~~~~
 * Relax constraint on jellyfish dependency
 * Add the 2020 TIGER URLs to shapefile_urls()
+* add support for Python 3.12
 
 
 3.1.1
